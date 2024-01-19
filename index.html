@@ -169,9 +169,10 @@ est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit molli
         <h3 class="text-5xl mb-12 font-semibold text-center">
           latest News
         </h3>
-        <div class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <!-- grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 -->
+        <div class=" md:flex gap-10 justify-between ">
           <!-- card 1 -->
-          <div class="card w-96 glass">
+          <div class="card w-96 glass shadow-xl">
             <figure><img src="images/others/latest1.png" alt="car!"/></figure>
             <div class="card-body">
               <h2 class="card-title text-2xl">Ducati XDIAVEL S-73</h2>
@@ -182,7 +183,7 @@ est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit molli
             </div>
           </div>
           <!-- card 2 -->
-          <div class="card w-96 glass">
+          <div class="card w-96 glass shadow-xl">
             <figure><img src="images/others/latest2.png" alt="car!"/></figure>
             <div class="card-body">
               <h2 class="card-title text-2xl">Ducati XDIAVEL S-73</h2>
@@ -193,7 +194,7 @@ est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit molli
             </div>
           </div>
           <!-- card 3 -->
-          <div class="card w-96 glass">
+          <div class="card w-96 glass shadow-xl">
             <figure><img src="images/others/latest3.png" alt="car!"/></figure>
             <div class="card-body">
               <h2 class="card-title text-2xl">Ducati XDIAVEL S-73</h2>
@@ -204,6 +205,128 @@ est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit molli
             </div>
           </div>
         </div>
+      </section>
+      <!-- Happy clients -->
+      <section class="my-26">
+        <h3 class="text-5xl mb-24 font-semibold text-center">
+          Happy <span class="text-bike-primary">Clients says</span>
+
+        </h3>
+        <div class="md:flex gap-10 justify-between">
+          <!-- 1st review -->
+          <div class="card w-96 p-9 bg-base-100 shadow-xl border border-gray-400">
+            <figure><img class="rounded-full" src="images/others/user-3.png" alt="Shoes" /></figure>
+            <div class="card-body space-y-3"> 
+              <p class="text-center">If a dog chews shoes whose shoes does he choose?</p>
+              <div class="rating justify-center">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked/>
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <div class=" text-center justify-center">
+                <h4 class="text-sm font-semibold text-info">
+                  Asfak Ahmed Ridul
+                </h4>
+                <p class="pt-2 font-semibold text-white">Developer</p>
+              </div>
+            </div>
+          </div>
+          <div class="card w-96 p-9 bg-base-100 shadow-xl border border-gray-400">
+            <figure><img class="rounded-full" src="images/others/user-2.png" alt="Shoes" /></figure>
+            <div class="card-body space-y-3"> 
+              <p class="text-center">If a dog chews shoes whose shoes does he choose?</p>
+              <div class="rating justify-center">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <div class=" text-center justify-center">
+                <h4 class="text-sm font-semibold text-info">
+                  Hazzaj Anik
+                </h4>
+                <p class="pt-2 font-semibold text-white">Programmer</p>
+              </div>
+            </div>
+          </div>
+          <div class="card w-96 p-9 bg-base-100 shadow-xl border border-gray-400">
+            <figure><img class="rounded-full" src="images/others/user-1.png" alt="Shoes" /></figure>
+            <div class="card-body space-y-3"> 
+              <p class="text-center">If a dog chews shoes whose shoes does he choose?</p>
+              <div class="rating justify-center">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked/>
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <div class=" text-center justify-center">
+                <h4 class="text-sm font-semibold text-info">
+                  Lotiful Islam Rifat
+                </h4>
+                <p class="pt-2 font-semibold text-white">Developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <section class="my-24">
+      
+          <h2 class="text-5xl font-semibold text-center p-10">Frequently Asked <span class="text-bike-primary" >Questions</span></h2>
+        <div class="hero min-h-screen bg-base-200">
+          
+          <div class="hero-content flex-col lg:flex-row-reverse">
+            <img src="images/others/faq.png" class="max-w-sm rounded-lg shadow-2xl" />
+            <div>
+              <!-- 1st question -->
+              <div class="collapse bg-base-200">
+                <input type="radio" name="my-accordion-1" checked="checked" /> 
+                <div class="collapse-title text-xl font-medium">
+                  What are the most important things I should
+know about riding a bike?
+                </div>
+                <div class="collapse-content"> 
+                  <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                </div>
+              </div>
+              <!-- 2nd -->
+              <div class="collapse bg-base-200">
+                <input type="radio" name="my-accordion-1" /> 
+                <div class="collapse-title text-xl font-medium">
+                  How can I tell if my helmet is old and I need a 
+                  new one?
+                </div>
+                <div class="collapse-content"> 
+                  <p>hello</p>
+                </div>
+              </div>
+              <!-- 3rd -->
+              <div class="collapse bg-base-200">
+                <input type="radio" name="my-accordion-1" /> 
+                <div class="collapse-title text-xl font-medium">
+                  My bike has been in storage is it safe to ride?
+                </div>
+                <div class="collapse-content"> 
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse bg-base-200">
+                <input type="radio" name="my-accordion-1" /> 
+                <div class="collapse-title text-xl font-medium">
+                  What rules should I follow when riding my bike?
+                </div>
+                <div class="collapse-content"> 
+                  <p>hello</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </section>
 
     </main>
